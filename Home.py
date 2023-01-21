@@ -18,7 +18,7 @@ hidemenu =  """
 """
 
 
-st.markdown("# **:blue[Bacteria]** Colony Counter")
+st.markdown("# **:red[FERRISIA]** DETECTOR")
 st.write(
     """Web app to counting bacteria colony automatically – easy to use and fast."""
 )
