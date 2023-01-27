@@ -20,7 +20,7 @@ hidemenu =  """
 
 st.markdown("# :red[FERRISIA] DETECTOR")
 st.write(
-    """Web app to counting bacteria colony automatically – easy to use and fast."""
+    """Ferrisia Detector adalah aplikasi untuk mengidentifikasi spesies ferrisia hanya dengan gambar dari tubular duct"""
 )
 link = '[Start Counting Colony](https://harizaldycahya-colony-counter-home-ng37y9.streamlit.app/Counting)'
 st.markdown(link, unsafe_allow_html=True)
