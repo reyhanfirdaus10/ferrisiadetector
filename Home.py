@@ -22,6 +22,11 @@ st.markdown("# :red[FERRISIA] DETECTOR")
 st.write(
     """Ferrisia Detector adalah aplikasi untuk mengidentifikasi spesies ferrisia dengan cara meng-upload gambar tubular duct"""
 )
+home_1 = Image.open('images/manual (1).png')
+
+st.subheader('1. Browse Files')
+st.caption('First step is choosing image that you wanna counting, to do this you need click browse files button, you can find this button in sidebar menu')
+st.image(home_1, caption='home (1)')
 link = '[Start Detect](https://reyhanfirdaus10-ferrisiadetector-home-amv9a1.streamlit.app/Detect)'
 st.markdown(link, unsafe_allow_html=True)
 
