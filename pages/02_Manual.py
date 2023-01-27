@@ -20,10 +20,13 @@ footer:after{
 
 st.markdown("# :red[FERRISIA] DETECTOR")
 
-manual_1 = Image.open('images/manual (1).png')
+about_1 = Image.open('images/about (1).png')
 
 st.subheader('ABOUT')
-st.caption('Ferrisia merupan genus baru di dunia, saat ini di dunia telah ditemukan 18 spesies dan di Indonesia baru ditemukan dua spesies genus Ferrisia, yaitu Ferrisia virgata, dan yang terbaru adalah spesies koya Ferrisa dasylirii (Cockerell) (Hemiptera: Pseudococcidae) telah direkam untuk pertama kali di Indonesia. Spesies ini dijumpai hidup pada tanaman Durio zibethinus Murray (Malvaceae), Gliricidia sepium (Jacq.) (Fabaceae), Hibiscus spp. (Malvaceae), Psidium guajava L. (Myrtaceae), Solanum torvum Swartz (Solanaceae), dan Theobroma cacao L. (Malvaceae) di beberapa bandar di daerah Bengkulu, Sumatera Selatan, Indonesia')
-st.image(manual_1, caption='manual (1)')
+st.caption('APA ITU FERRISIA ?')
+st.caption('Ferrisia adalah Genus dari famili Kutu Putih (Pseudococcidae)')
+st.image(about_1, caption='about (1)')
+st.caption('Spesies Ferrisia di indonesia baru ditemukan sebanyak dua spesies yaitu spesies Ferrisia Virgata dan Ferrisia Dasylirii sedangkan di Dunia sudah di temukan 18 spesies Ferrisia')
+st.caption('Oleh karena itu Aplikasi ini berguna untuk mendeteksi Spesies ferrisia yang di harapkan dapat mempermudah proses identifikasi kutu putih sehingga memungkinkan ditemukannya spesies baru ')
 
 
