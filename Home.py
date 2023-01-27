@@ -23,8 +23,8 @@ st.write(
     """Ferrisia Detector adalah aplikasi untuk mengidentifikasi spesies ferrisia dengan cara meng-upload gambar tubular duct"""
 )
 home_1 = Image.open('images/home (1).png')
-home_1 = Image.open('images/home (2).png')
-home_1 = Image.open('images/home (3).png')
+home_2 = Image.open('images/home (2).png')
+home_3 = Image.open('images/home (3).png')
 st.subheader('Cara Pengguanaan Aplikasi')
 st.caption('Gunakan preparat kutu putih yang ingin di identifikasi')
 st.image(home_1, caption='home (1)')
