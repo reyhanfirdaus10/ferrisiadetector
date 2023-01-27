@@ -20,9 +20,9 @@ hidemenu =  """
 
 st.markdown("# :red[FERRISIA] DETECTOR")
 st.write(
-    """Ferrisia Detector adalah aplikasi untuk mengidentifikasi spesies ferrisia hanya dengan gambar dari tubular duct"""
+    """Ferrisia Detector adalah aplikasi untuk mengidentifikasi spesies ferrisia dengan cara meng-upload gambar tubular duct"""
 )
-link = '[Start Counting Colony](https://harizaldycahya-colony-counter-home-ng37y9.streamlit.app/Counting)'
+link = '[Start Detect](https://reyhanfirdaus10-ferrisiadetector-home-amv9a1.streamlit.app/Detect)'
 st.markdown(link, unsafe_allow_html=True)
 
 
