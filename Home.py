@@ -27,7 +27,7 @@ st.write(
 home_1 = Image.open('images/home (1).png')
 home_2 = Image.open('images/home (2).png')
 home_3 = Image.open('images/home (3).png')
-st.subheader('Cara Pengguanaan Aplikasi')
+st.subheader('Cara Penggunaan Aplikasi')
 st.caption('Gunakan preparat kutu putih yang ingin di identifikasi')
 st.image(home_1, caption='home (1)')
 st.caption('Amati dan ambil gambar bagian tubular duct yang memiliki struktur bentuk yang sempurna dengan menggunakan mikroskop')
